@@ -1,7 +1,3 @@
-
-
-
-
 #include <stdio.h>
 #include <stdarg.h>
 
@@ -30,6 +26,6 @@ void	mini_printf(const char *str, ...)
 
 int main(void)
 {
-	printf("string is here %s\ninteger is here %d\n", "helloarmen", 52!);
+	mini_printf("string is here %s\ninteger is here %d", "helloarmen", 52);
 	return (0);
 }	
